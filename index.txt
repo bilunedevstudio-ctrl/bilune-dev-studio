@@ -64,7 +64,7 @@
 
     <h2>Fale conosco</h2>
     <p>Email: contato@bilunedevstudio.com</p>
-    <p>WhatsApp: (49) 99148-8073</p>
+    <p>WhatsApp: (xx) xxxxx-xxxx</p>
 
     <form>
       <input type="text" placeholder="Seu nome" required>
@@ -78,7 +78,10 @@
   <footer>
     <p>© 2025 Bilune Dev Studio - Todos os direitos reservados.</p>
   </footer>
-  <script src="script.js"></script>
 
+  <script src="script.js"></script>
 </body>
 </html>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
