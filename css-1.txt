@@ -1,0 +1,147 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#home {
+  background: linear-gradient(to right, #0077cc, #00b3b3);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 0 0 30px 30px;
+}
+
+#home h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Títulos */
+h2 {
+  margin-bottom: 20px;
+  color: #0077cc;
+}
+
+/* Lista de serviços */
+#servicos ul {
+  list-style: none;
+}
+
+#servicos li {
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Tabela de horários */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Formulário de contato */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background: #005fa3;
+}
+
+/* Rodapé */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #home h2 {
+    font-size: 1.5rem;
+  }
+}
+/* Animações de entrada */
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}

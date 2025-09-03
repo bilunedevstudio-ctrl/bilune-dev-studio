@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bilune Dev Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Bilune Dev Studio</h1>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Seção Home -->
+  <section id="home">
+    <h2>Transformamos ideias em soluções digitais</h2>
+    <p>Seu parceiro estratégico na vanguarda da transformação digital.</p>
+  </section>
+
+  <!-- Seção Sobre -->
+  <section id="sobre">
+    <h2>Sobre nós</h2>
+    <p>
+      Bem-vindo à Bilune Dev Studio, o seu parceiro estratégico na vanguarda da
+      transformação digital. Em um mundo impulsionado pela tecnologia, a
+      capacidade de inovar e se adaptar é crucial. Nós não apenas acompanhamos
+      essa evolução; nós a impulsionamos, criando soluções de software que
+      redefinem o futuro dos negócios.
+    </p>
+  </section>
+
+  <!-- Seção Serviços -->
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <ul>
+      <li>Desenvolvimento de sites e web apps</li>
+      <li>Aplicativos mobile</li>
+      <li>Backend, frontend e full-stack</li>
+      <li>Automação com Python</li>
+      <li>Web scraping e chatbots</li>
+      <li>Integração de APIs</li>
+      <li>Inteligência Artificial e Machine Learning</li>
+      <li>Design gráfico e identidade visual</li>
+      <li>SEO e anúncios online</li>
+      <li>Consultoria técnica e negócios digitais</li>
+    </ul>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato">
+    <h2>Horários de Funcionamento</h2>
+    <table>
+      <tr><td>Segunda a Sexta</td><td>08:00–11:30 | 13:30–17:00</td></tr>
+      <tr><td>Sábado</td><td>Fechado</td></tr>
+      <tr><td>Domingo</td><td>Fechado</td></tr>
+    </table>
+
+    <h2>Fale conosco</h2>
+    <p>Email: contato@bilunedevstudio.com</p>
+    <p>WhatsApp: (49) 99148-8073</p>
+
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu email" required>
+      <textarea placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2025 Bilune Dev Studio - Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
