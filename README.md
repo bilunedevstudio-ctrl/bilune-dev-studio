@@ -1,2 +1,2 @@
 # bilune-dev-studio
-Site institucional da Bilune Dev Studio
+Site De Software da Bilune Dev Studio
